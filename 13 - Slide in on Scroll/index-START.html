@@ -142,18 +142,6 @@
 
 </div>
 
-<script>
-    //    document.querySelectorAll('img')[0].getBoundingClientRect();
-    //    window.innerHeight;
-    const img = document.querySelectorAll('img')[0];
-    document.addEventListener("scroll", function () {
-        if (img.getBoundingClientRect().bottom < window.innerHeight) {
-            img.style.opacity = 1 ;
-            img.style.transform = 'translateX(0%) scale(0.95)';
-        }
-    });
-</script>
-
 <style>
     html {
         box-sizing: border-box;
@@ -212,6 +200,6 @@
     }
 
 </style>
-
 </body>
+<script src="myScript.js"></script>
 </html>
